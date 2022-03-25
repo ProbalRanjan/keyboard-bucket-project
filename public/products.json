@@ -1,0 +1,74 @@
+[
+  {
+    "id": "key1",
+    "name": "Asus ROG Claymore II Modular TKL Mechanical Gaming Keyboard",
+    "price": 2100,
+    "image": "./images/image-1.png"
+  },
+  {
+    "id": "key2",
+    "name": "CORSAIR K100 RGB Mechanical CHERRY MX Speed Gaming Keyboard",
+    "price": 1900,
+    "image": "./images/image-2.png"
+  },
+  {
+    "id": "key3",
+    "name": "Razer Huntsman Elite Opto-Mechanical Switch Gaming Keyboard",
+    "price": 1700,
+    "image": "./images/image-3.jpg"
+  },
+  {
+    "id": "key4",
+    "name": "Thermaltake Level 20 RGB Cherry MX Speed Silver Gaming Keyboard",
+    "price": 1600,
+    "image": "./images/image-4.jpg"
+  },
+  {
+    "id": "key5",
+    "name": "Asus M601 ROG FALCHION Wireless 65% Mechanical Gaming Keyboard",
+    "price": 1400,
+    "image": "./images/image-5.jpg"
+  },
+  {
+    "id": "key6",
+    "name": "Apple Wireless Magic Keyboard",
+    "price": 1000,
+    "image": "./images/image-6.jpg"
+  },
+  {
+    "id": "key7",
+    "name": "FANTECH MAXFIT67 MK858 RGB BLUTOOTH WIRELESS MECHANICAL KEYBOARD",
+    "price": 1050,
+    "image": "./images/image-7.jpg"
+  },
+  {
+    "id": "key8",
+    "name": "Keychron K2 Wireless RGB Hot Swap Aluminum Frame Mechanical Keyboard",
+    "price": 900,
+    "image": "./images/image-8.jpg"
+  },
+  {
+    "id": "key9",
+    "name": "Dareu A87 V2 Wireless Hotswappable Mechanical Keyboard",
+    "price": 800,
+    "image": "./images/image-9.jpg"
+  },
+  {
+    "id": "key10",
+    "name": "Dareu A87 Summer Cherry MX Mechanical Keyboard",
+    "price": 500,
+    "image": "./images/image-10.jpg"
+  },
+  {
+    "id": "key11",
+    "name": "RK ROYAL KLUDGE RK84 RGB Wireless Mechanical Gaming Keyboard",
+    "price": 400,
+    "image": "./images/image-11.jpg"
+  },
+  {
+    "id": "key12",
+    "name": "Redragon K530 Draconic 60% Compact RGB Wireless Mechanical Keyboard",
+    "price": 450,
+    "image": "./images/image-12.jpg"
+  }
+]
