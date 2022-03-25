@@ -23,7 +23,7 @@ nav a:hover{
     color: white;
 }
 
-/* @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .header-title{
         color: #3FC1C9;
         font-size: 24px;
@@ -32,4 +32,4 @@ nav a:hover{
     nav a {
       display: none;
     }
-  } */
+  }

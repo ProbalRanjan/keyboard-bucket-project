@@ -23,7 +23,7 @@ const Shop = () => {
                 }
             </div>
             <div className="selected-product">
-                <h3>Selected Keyboards</h3>
+                {/* <h3>Selected Keyboards</h3> */}
             </div>
         </div>
     );

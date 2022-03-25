@@ -15,11 +15,15 @@
     background-color: #CBF1F5;
 } */
 
-/* @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
+    .shop-container{
+        padding:  0 10px;
+        padding-top: 30px;
+    }
 
     .product-container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
     }
-  } */
+  }
