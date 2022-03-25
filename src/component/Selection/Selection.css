@@ -1,0 +1,29 @@
+.selection{
+    position: sticky;
+    top: 0;
+}
+
+.choose-btn{
+    background-color: #252A34;
+    color: white;
+    padding:  0 30px; 
+    border-radius: 20px;
+    border: none;
+}
+
+.choose-btn:hover{
+    background-color: #3FC1C9;
+}
+
+.reset-btn{
+    background-color: #3FC1C9;
+    color: white;
+    padding:  0 30px; 
+    border-radius: 20px;
+    border: none;
+    margin-left: 20px;
+}
+
+.reset-btn:hover{
+    background-color: #252A34
+}

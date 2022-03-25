@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
+import Selection from '../Selection/Selection';
 import './Shop.css'
 
 const Shop = () => {
@@ -23,7 +24,7 @@ const Shop = () => {
                 }
             </div>
             <div className="selected-product">
-                {/* <h3>Selected Keyboards</h3> */}
+                <Selection></Selection>
             </div>
         </div>
     );

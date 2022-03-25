@@ -11,9 +11,10 @@
     gap: 25px;
 }
 
-/* .selected-product{
+.selected-product{
     background-color: #CBF1F5;
-} */
+    padding: 30px;
+}
 
 @media screen and (max-width: 500px) {
     .shop-container{
