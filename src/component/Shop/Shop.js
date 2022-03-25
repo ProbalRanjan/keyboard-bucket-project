@@ -22,6 +22,9 @@ const Shop = () => {
                     ></Product>)
                 }
             </div>
+            <div className="selected-product">
+                <h3>Selected Keyboards</h3>
+            </div>
         </div>
     );
 };
