@@ -1,0 +1,14 @@
+.product img{
+    width: 300px;
+    height: 300px;
+}
+
+.cart-btn{
+    width: 100%;
+    border: none;
+    background-color: #3FC1C9;
+}
+
+.cart-btn:hover{
+    background-color: #A6E3E9;
+}
