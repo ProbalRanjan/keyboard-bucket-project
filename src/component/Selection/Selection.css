@@ -1,6 +1,13 @@
 .selection{
     position: sticky;
     top: 0;
+    background-color: #E3FDFD;
+    padding: 30px;
+    border-radius: 20px;
+
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
 }
 
 .choose-btn{
@@ -27,3 +34,9 @@
 .reset-btn:hover{
     background-color: #252A34
 }
+
+@media screen and (max-width: 500px) {
+    .selection{
+        display: none;
+    }
+  }

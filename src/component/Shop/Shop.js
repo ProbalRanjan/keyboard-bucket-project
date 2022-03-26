@@ -13,6 +13,13 @@ const Shop = () => {
             .then(data => setProducts(data))
     }, [])
 
+    const [selection, setSelection] = useState([])
+
+    const addToCart = (product) => {
+        const newSelection = [...selection, product];
+        setSelection(newSelection)
+    }
+
     return (
         <div className='shop-container'>
             <div className="product-container">
@@ -20,11 +27,12 @@ const Shop = () => {
                     products.map(product => <Product
                         key={product.id}
                         product={product}
+                        addToCart={addToCart}
                     ></Product>)
                 }
             </div>
-            <div className="selected-product">
-                <Selection></Selection>
+            <div>
+                <Selection selection={selection}></Selection>
             </div>
         </div>
     );

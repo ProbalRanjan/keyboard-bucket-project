@@ -1,8 +1,7 @@
 .shop-container{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    padding:  0 50px;
-    padding-top: 40px;
+    padding: 40px 50px;
 }
 
 .product-container{
@@ -11,15 +10,9 @@
     gap: 25px;
 }
 
-.selected-product{
-    background-color: #CBF1F5;
-    padding: 30px;
-}
-
 @media screen and (max-width: 500px) {
     .shop-container{
-        padding:  0 10px;
-        padding-top: 30px;
+        padding: 40px 10px;
     }
 
     .product-container{
