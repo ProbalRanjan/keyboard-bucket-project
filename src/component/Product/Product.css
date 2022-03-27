@@ -33,7 +33,7 @@
     font-weight: 400;
 }
 
-.cart-btn{
+.product-btn{
     width: 100%;
     border: none;
     background-color: #3FC1C9;
@@ -51,6 +51,6 @@
     padding-right: 10px;
 }
 
-.cart-btn:hover{
+.product-btn:hover{
     background-color: #A6E3E9;
 }

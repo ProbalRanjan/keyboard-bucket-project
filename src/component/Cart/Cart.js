@@ -1,5 +1,5 @@
 import React from 'react';
-import './Cart.css'
+import './Cart.css';
 
 const Cart = ({ cart, setCart }) => {
 
@@ -7,6 +7,11 @@ const Cart = ({ cart, setCart }) => {
         if (button === 'Choose') {
             const randomItem = [cart[Math.floor(Math.random() * cart.length)]]
             setCart(randomItem)
+
+            if (cart.length === 0) {
+                setCart([])
+                alert('Need to choose some product!')
+            }
         }
 
         else {
@@ -19,7 +24,7 @@ const Cart = ({ cart, setCart }) => {
         <div className='cart'>
             <h3>Selected Keyboards</h3>
             <div>
-                <p>Cart: {cart.length}</p>
+                <p>Total Items: {cart.length}</p>
                 <div>
                     {
                         cart.map((item) => (
@@ -31,7 +36,7 @@ const Cart = ({ cart, setCart }) => {
                     }
                 </div>
             </div>
-            <div>
+            <div className='cart-btn'>
                 <button onClick={() => cartButtonHandler('Choose')} className='choose-btn'>
                     <p>Choose the Best One</p>
                 </button>

@@ -13,6 +13,7 @@
     display: grid;
     grid-template-columns: 1fr 5fr;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 .cart-items img{
@@ -20,6 +21,10 @@
     border: 2px solid #252A34;;
     border-radius: 100%;
     margin: 2px;
+}
+
+.cart-btn{
+    padding-top: 20px;
 }
 
 .choose-btn{
@@ -47,8 +52,17 @@
     background-color: #252A34
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (min-width: 0px) and (max-width: 472px) {
     .cart{
-        display: none;
+        margin-bottom: 30px;
+        order: 1;
+    }
+
+    .cart-btn{
+        display: flex;
+    }
+
+    .cart-btn p{
+        font-size: 12px;
     }
   }
