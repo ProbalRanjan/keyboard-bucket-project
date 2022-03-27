@@ -1,0 +1,31 @@
+.ques-ans-container{
+  padding: 50px;
+}
+.ques-ans-container h1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+.ques {
+    margin-top: 20px;
+  }
+.ques span {
+    font-weight: 600;
+    padding-right: 10px;
+    font-size: 18px;
+  }
+.ques p {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+.difference {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+@media only screen and (min-width: 0px) and (max-width: 472px) {
+    .difference {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  

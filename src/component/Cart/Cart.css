@@ -1,4 +1,4 @@
-.selection{
+.cart{
     position: sticky;
     top: 0;
     background-color: #E3FDFD;
@@ -8,6 +8,18 @@
     font-family: 'Poppins', sans-serif;
     line-height: 25px;
     letter-spacing: 0.0015em;
+}
+.cart-items{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+
+.cart-items img{
+    width: 50px;
+    border: 2px solid #252A34;;
+    border-radius: 100%;
+    margin: 2px;
 }
 
 .choose-btn{
@@ -36,7 +48,7 @@
 }
 
 @media screen and (max-width: 500px) {
-    .selection{
+    .cart{
         display: none;
     }
   }

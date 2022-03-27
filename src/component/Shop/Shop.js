@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
-import Selection from '../Selection/Selection';
+import Cart from '../Cart/Cart';
 import './Shop.css'
 
 const Shop = () => {
@@ -13,11 +13,23 @@ const Shop = () => {
             .then(data => setProducts(data))
     }, [])
 
-    const [selection, setSelection] = useState([])
+    const [cart, setCart] = useState([])
 
     const addToCart = (product) => {
-        const newSelection = [...selection, product];
-        setSelection(newSelection)
+        if (cart.length < 4) {
+            const itemIndex = cart.findIndex((item) => item === product);
+
+            if (itemIndex > -1) {
+                alert('Product is Already Added')
+            }
+            else {
+                setCart([...cart, product])
+            }
+        }
+
+        else {
+            alert("You can't add more than 4 items")
+        }
     }
 
     return (
@@ -32,7 +44,7 @@ const Shop = () => {
                 }
             </div>
             <div>
-                <Selection selection={selection}></Selection>
+                <Cart cart={cart} setCart={setCart}></Cart>
             </div>
         </div>
     );
