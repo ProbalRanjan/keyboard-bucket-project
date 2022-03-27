@@ -1,6 +1,10 @@
 # The Keyboard Bucket
 
-Live Site Link [Click Here](https://github.com/facebook/create-react-app)
+### E-commerce website for lots of Keyboard.
+
+Live Site Link [Click Here](https://comfy-cucurucho-81054f.netlify.app)
+
+### [https://comfy-cucurucho-81054f.netlify.app](https://comfy-cucurucho-81054f.netlify.app)
 
 ## Project Summary
 
