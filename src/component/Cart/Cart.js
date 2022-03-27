@@ -22,9 +22,8 @@ const Cart = ({ cart, setCart }) => {
 
     return (
         <div className='cart'>
-            <h3>Selected Keyboards</h3>
+            <h3>Selected Keyboards List -</h3>
             <div>
-                <p>Total Items: {cart.length}</p>
                 <div>
                     {
                         cart.map((item) => (
