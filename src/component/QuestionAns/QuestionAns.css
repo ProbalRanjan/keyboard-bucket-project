@@ -24,7 +24,15 @@
   }
 
 @media only screen and (min-width: 0px) and (max-width: 472px) {
-    .difference {
+  .ques-ans-container h1 {
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .ques-ans-container h2 {
+    font-size: 20px;
+  }
+  .difference {
       grid-template-columns: repeat(1, 1fr);
     }
   }

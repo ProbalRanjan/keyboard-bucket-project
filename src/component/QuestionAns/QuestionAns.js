@@ -8,24 +8,16 @@ const QuestionAns = () => {
 
             {/* Question-1 */}
             <div className="ques">
-                <h2>1. How does React Work?
-                </h2>
+                <h2>1. How does React Work?</h2>
                 <p>
                     <span>Ans:</span>
-                    React is a JavaScript library for building user interfaces. It converts JavaScript
-                    code to JSX(JavaScript XML) by the help of react package. It makes a
-                    vartual dom when users interact on the client site. React compares
-                    changes between real DOM and vartual DOM. And it update only the
-                    spacific changes on the Real DOM without reloading the webpage by the
-                    help of React DOM. As it works without reloading the page it is very
-                    fast and popular among the developers
+                    React is a JavaScript library for building user interfaces. It converts JavaScript code to JSX(JavaScript XML) by the help of react package. A developer team realized that the DOM(Document Object Model) is too slow to build a client side apps. <br /> To make it faster, React implement a virtual DOM tree. This virtual DOM basically interact on the client side and React compare the changes between the real DOM and the virtual DOM. It update the real DOM through specific changes without reloading the webpage.
                 </p>
             </div>
 
             {/* Question-2 */}
             <div className="ques">
                 <h2>2. Differences between props and state!</h2>
-
                 <div className='difference'>
                     <ul>
                         <h4>Props</h4>
@@ -47,16 +39,15 @@ const QuestionAns = () => {
                 </div>
             </div>
 
-            {/*  */}
+            {/* Question-3 */}
             <div className="ques">
                 <h2>3. How does useState work?
                 </h2>
                 <p>
                     <span>Ans:</span>
-                    useState is a Hook that allows developer to have state variables in
-                    functional components. It can store value, objects in an array. Use
-                    state is an array which has 2 elements. One is a start variable and
-                    other is a store function. The set function help developer to store
+                    useState is a Hook in React that allows developer to have state variables in
+                    functional components. It can store value, objects in an array. useState is an array which has 2 elements. One is a start variable and
+                    other is a function(setFunction). The set function help developer to store
                     the value on the state variable as an array for future uses.
                 </p>
             </div>
